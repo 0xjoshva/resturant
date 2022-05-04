@@ -15,3 +15,13 @@
 .bi-check-all{
     font-size: 130%;
 }
+
+.navbar-brand{
+    font-family: 'Yellowtail', cursive !important;
+    font-size: 200% !important;
+}
+
+.navbar-brand span{
+    font-family: 'Yellowtail', cursive !important;
+    font-size: 100% !important;
+}
