@@ -14,6 +14,10 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
     />
     <title>Document</title>
+
+    <!-- FONTS -->
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i" rel="stylesheet">
+
   </head>
   <body>
     <section id="home">
@@ -30,7 +34,9 @@
         </div>
         <!-- navbar -->
 
-        <nav class="navbar display-5 navbar-expand-lg navbar-dark sticky-top">
+        <nav
+          class="navbar display-5 navbar-expand-lg navbar-dark sticky-top bg-dark"
+        >
           <a class="navbar-brand" href="#">Coffee Cafe</a>
           <button
             class="navbar-toggler"
@@ -47,27 +53,27 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto d-flex justify-content-end">
               <li class="nav-item active">
-                <a class="nav-link" href="#"
+                <a class="nav-link" href="#home"
                   >Home <span class="sr-only">(current)</span></a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Menu</a>
+                <a class="nav-link" href="#menu">Menu</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Specials</a>
+                <a class="nav-link" href="#specials">Specials</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Events</a>
+                <a class="nav-link" href="#events">Events</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Chefs</a>
+                <a class="nav-link" href="#chefs">Chefs</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Gallery</a>
+                <a class="nav-link" href="#gallery">Gallery</a>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -89,7 +95,7 @@
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
             <button
@@ -212,6 +218,49 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="p-5">
+      <div class="row bg-about">
+        <!-- youtube video embed -->
+        <iframe
+          width="800"
+          height="500"
+          src="https://www.youtube.com/embed/lAd3LYIZMjs"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <div class="ml-5">
+          <h3 id="about-header">Lorem ipsum dolor <span class="fw-bold">sit amet.</span></h3>
+          <p class="lead text-muted w-50">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
+            aute irure dolor in reprehenderit
+          </p>
+
+          <p class="lead text-muted w-50">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
+            aute irure dolor in reprehenderit
+          </p>
+
+          <ul class="list-unstyled  w-50" id="about-li">
+            <li><i class="bi bi-check-all text-warning"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+
+            <li><i class="bi bi-check-all text-warning"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet.</li>
+
+            <li><i class="bi bi-check-all text-warning"></i> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+          </ul>
+
+          <p class="lead text-muted w-50">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+            asperiores eveniet repellat consectetur nostrum consequatur alias et
+            accusamus maxime neque.
+          </p>
         </div>
       </div>
     </section>

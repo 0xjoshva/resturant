@@ -1,0 +1,17 @@
+#about-header {
+  font-family: "Satisfy", sans-serif !important;
+  font-size: 350%;
+}
+
+.bg-about {
+  background-color: rgb(233, 219, 202) !important;
+  background-clip: content-box, padding-box !important;
+}
+
+#about-li{
+    font-size: 130%;
+}
+
+.bi-check-all{
+    font-size: 130%;
+}
