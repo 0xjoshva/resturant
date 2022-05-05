@@ -7,9 +7,18 @@
 }
 
 /* info */
+.info{
+    padding-left: 20%;
+}
+
 .info-ico {
   /* color:#00704A; */
+  font-size: 1.3rem !important;
   color: black !important;
+  
+}
+.info p{
+    font-size: 15px !important;
 }
 
 /* navbar */
@@ -17,6 +26,8 @@
   font-family: "Noto Serif", serif !important;
   font-size: 200% !important;
   font-weight: bolder !important;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 button {
@@ -28,6 +39,7 @@ button {
   background: #00704a !important;
   color: white !important;
   font-family: "Poppins", sans-serif !important;
+  margin-right: 35% !important;
 }
 
 /* carousel */
@@ -55,7 +67,6 @@ button {
 /* about */
 .bg-about {
   background-color: #b5dbcf !important;
-  background-clip: content-box, padding-box !important;
 }
 
 #about-header {
@@ -83,7 +94,13 @@ button {
 }
 
 
-
+.background-pad{
+    background-color: #b5dbcf !important;
+    width: 1 00% !important;
+    height: 100% !important;
+    border-top:solid 60px #b5dbcf;
+    border-bottom:solid 60px #b5dbcf;
+}
 
 
 
