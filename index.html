@@ -16,205 +16,193 @@
     <title>Document</title>
 
     <!-- FONTS -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=PT+Sans&family=Satisfy&family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Noto+Serif:wght@700&family=PT+Sans&family=Poppins:wght@300&family=Satisfy&family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <section id="home">
-      <div id="background">
-        <div class="row">
-          <!-- contact -->
-          <p class="ml-3" style="font-size: 1.3rem">
-            <i class="bi bi-phone text-warning"></i> (+27) 72 458 2939
-          </p>
-          <!-- trading hours -->
-          <p class="ml-3" style="font-size: 1.3rem">
-            <i class="bi bi-clock text-warning"></i> Mon-Sun: 6:00 AM - 16:30 PM
-          </p>
+            
+      <!-- info -->
+      <div class="row">
+        <!-- contact -->
+        <p class="ml-3" style="font-size: 1.3rem">
+          <i class="bi bi-phone info-ico"></i> (+27) 72 458 2939
+        </p>
+        <!-- trading hours -->
+        <p class="ml-3" style="font-size: 1.3rem">
+          <i class="bi bi-clock info-ico"></i> Mon-Sun: 6:00 AM - 16:30 PM
+        </p>
+      </div>
+      
+      <!-- navbar -->
+      <nav
+        class="navbar navbar-dark sticky-top navbar navbar-expand-md pt-5 pb-4"
+      >
+        <a class="navbar-brand" href="#home">STARBUCKS</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto d-flex justify-content-end">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#specials">Specials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#events">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#chefs">Chefs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <button class="btn my-2 my-sm-0 book-btn" type="submit">Order a coffee</button>
         </div>
-        <!-- navbar -->
+      </nav>
 
-        <nav
-          class="navbar navbar-dark sticky-top navbar navbar-expand-md pt-5 pb-4"
-        >
-          <a class="navbar-brand" href="#home">Barista <span> Cafe</span></a>
-          <button
-            class="navbar-toggler"  
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto d-flex justify-content-end">
-              <li class="nav-item active">
-                <a class="nav-link" href="#home"
-                  >Home <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#menu">Menu</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#specials">Specials</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#events">Events</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#chefs">Chefs</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#gallery">Gallery</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Dropdown
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
+      <!-- carousel/background -->
+      <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block img-fluid"
+              src="assets/starbucks1.jpg"
+              alt="first slide"
+            />
+            <!-- content -->
+            <div class="col align-items-center">
+              <div class="carousel-caption d-none d-md-block">
+                <h2 class="mb-3 display-4 carousel-header">
+                  Stop settling for less, have an affair with our café.
+                </h2>
+                <p class="w-50 text-center">
+                  Coffee beans are roasted with dry heat and with constant
+                  agitation to ensure even heating. The range of roasts varies
+                  from light golden brown all the way to a dark, almost black
+                  appearance.
+                </p>
+                <div class="row">
+                  <button class="btn my-2 my-sm-0 car-btn" type="submit">
+                    OUR MENU
+                  </button>
+                  <button class="btn my-2 my-sm-0 ml-5 car-btn" type="submit">
+                    CONTACT
+                  </button>
                 </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
-            </ul>
-            <button
-              class="btn btn-outline-warning my-2 my-sm-0 text-warning"
-              type="submit"
-            >
-              Book
-            </button>
+              </div>
+            </div>
           </div>
-        </nav>
-        <div
-          id="carouselExampleSlidesOnly"
-          class="carousel slide"
-          data-ride="carousel"
-        >
-          <ol class="carousel-indicators">
-            <li
-              data-target="#carouselExampleIndicators"
-              data-slide-to="0"
-              class="active"
-            ></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                class="d-block w-100"
-                src="assets/coffee1.jpg"
-                alt="First slide"
-              />
-              <!-- content -->
-             <div class="col align-items-center">
-              <div class="carousel-caption d-none d-md-block">
-                <h2 class="mb-3 display-4 carousel-header">Stop settling for less, have an affair with our café.</h2>
-                <p class="w-50 text-center">
-                  Coffee beans are roasted with dry heat and with constant
-                  agitation to ensure even heating. The range of roasts varies
-                  from light golden brown all the way to a dark, almost black
-                  appearance.
-                </p>
-                <div class="row">
-                  <button
-                    class="btn btn-outline-warning my-2 my-sm-0 text-warning"
-                    type="submit"
-                  >
-                    OUR MENU
-                  </button>
-                  <button
-                    class="btn btn-outline-warning my-2 my-sm-0 ml-5 text-warning"
-                    type="submit"
-                  >
-                    BOOK A TABLE
-                  </button>
-                </div>
-               </div>
+          <div class="carousel-item">
+            <img
+              class="d-block img-fluid"
+              src="assets/starbucks2.jpg"
+              alt="second slide"
+            />
+            <!-- content -->
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="mb-3 display-4 carousel-header">
+                Where mornings are brighter.
+              </h2>
+              <p class="w-50 text-center">
+                Coffee beans are roasted with dry heat and with constant
+                agitation to ensure even heating. The range of roasts varies
+                from light golden brown all the way to a dark, almost black
+                appearance.
+              </p>
+              <div class="row">
+                <button class="btn my-2 my-sm-0 car-btn" type="submit">
+                  OUR MENU
+                </button>
+                <button class="btn my-2 my-sm-0 ml-5 car-btn" type="submit">
+                  CONTACT
+                </button>
               </div>
             </div>
-            <div class="carousel-item">
-              <img
-                class="d-block w-100"
-                src="assets/coffee2.jpg"
-                alt="Second slide"
-              />
-              <!-- content -->
-              <div class="carousel-caption d-none d-md-block">
-                <h2 class="mb-3 display-4 carousel-header">Where mornings are brighter.</h2>
-                <p class="w-50 text-center">
-                  Coffee beans are roasted with dry heat and with constant
-                  agitation to ensure even heating. The range of roasts varies
-                  from light golden brown all the way to a dark, almost black
-                  appearance.
-                </p>
-                <div class="row">
-                  <button
-                    class="btn btn-outline-warning my-2 my-sm-0 text-warning"
-                    type="submit"
-                  >
-                    OUR MENU
-                  </button>
-                  <button
-                    class="btn btn-outline-warning my-2 my-sm-0 ml-5 text-warning"
-                    type="submit"
-                  >
-                    BOOK A TABLE
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                class="d-block w-100"
-                src="assets/coffee3.jpg"
-                alt="Third slide"
-              />
-              <!-- content -->
-              <div class="carousel-caption d-none d-md-block">
-                <h2 class="mb-3 display-4 carousel-header">We’re all just looking for the same thing.</h2>
-                <p class="w-50 text-center">
-                  Coffee beans are roasted with dry heat and with constant
-                  agitation to ensure even heating. The range of roasts varies
-                  from light golden brown all the way to a dark, almost black
-                  appearance.
-                </p>
-                <div class="row">
-                  <button
-                    class="btn btn-outline-warning my-2 my-sm-0 text-warning"
-                    type="submit"
-                  >
-                    OUR MENU
-                  </button>
-                  <button
-                    class="btn btn-outline-warning my-2 my-sm-0 ml-5 text-warning"
-                    type="submit"
-                  >
-                    BOOK A TABLE
-                  </button>
-                </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block img-fluid"
+              src="assets/starbucks3.jpg"
+              alt="third slide"
+            />
+            <!-- content -->
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="mb-3 display-4 carousel-header">
+                We’re all just looking for the same thing.
+              </h2>
+              <p class="w-50 text-center">
+                Coffee beans are roasted with dry heat and with constant
+                agitation to ensure even heating. The range of roasts varies
+                from light golden brown all the way to a dark, almost black
+                appearance.
+              </p>
+              <div class="row">
+                <button class="btn my-2 my-sm-0 car-btn" type="submit">
+                  OUR MENU
+                </button>
+                <button class="btn my-2 my-sm-0 ml-5 car-btn" type="submit">
+                  CONTACT
+                </button>
               </div>
             </div>
           </div>
@@ -227,15 +215,17 @@
         <!-- youtube video embed -->
         <iframe
           width="900"
-          height="600"
-          src="https://www.youtube.com/embed/lAd3LYIZMjs"
+          height="508"
+          src="https://www.youtube.com/embed/yJsaWxfkH2g"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
         <div class="ml-5">
-          <h3 id="about-header">Lorem ipsum dolor <span class="fw-bold">sit amet.</span></h3>
+          <h3 id="about-header">
+            Lorem ipsum dolor <span class="fw-bold">sit amet.</span>
+          </h3>
           <p class="lead text-muted w-50">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
@@ -248,12 +238,22 @@
             aute irure dolor in reprehenderit
           </p>
 
-          <ul class="list-unstyled  w-50" id="about-li">
-            <li><i class="bi bi-check-all text-warning"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+          <ul class="list-unstyled w-50" id="about-li">
+            <li>
+              <i class="bi bi-check-all"></i> Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+            </li>
 
-            <li><i class="bi bi-check-all text-warning"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet.</li>
+            <li>
+              <i class="bi bi-check-all"></i> Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Lorem ipsum dolor sit amet.
+            </li>
 
-            <li><i class="bi bi-check-all text-warning"></i> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+            <li>
+              <i class="bi bi-check-all"></i> Lorem ipsum dolor sit amet
+              consectetur, adipisicing elit. Lorem ipsum, dolor sit amet
+              consectetur adipisicing elit.
+            </li>
           </ul>
 
           <p class="lead text-muted w-50">
