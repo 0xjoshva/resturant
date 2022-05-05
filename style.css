@@ -61,16 +61,20 @@ button {
 #about-header {
   font-family: "Satisfy", sans-serif !important;
   font-size: 350%;
+  width: 60% !important;
 }
 
 #about-li {
-  font-size: 130% !important;
+  font-size: 100% !important;
   font-family: "Poppins", sans-serif !important;
+  width: 60% !important;
 }
 
 #about p {
   font-family: "Poppins", sans-serif !important;
-  font-size: 110% !important;
+  font-size: 100% !important;
+  width: 60% !important;
+
 }
 
 .bi-check-all {
